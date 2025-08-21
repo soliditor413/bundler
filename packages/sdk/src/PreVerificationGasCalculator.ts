@@ -108,7 +108,7 @@ export const MainnetConfig: PreVerificationGasCalculatorConfig = {
 
 export const ChainConfigs: { [key: number]: PreVerificationGasCalculatorConfig } = {
   1: MainnetConfig,
-  1337: MainnetConfig
+  12343: MainnetConfig
 }
 
 export class PreVerificationGasCalculator {

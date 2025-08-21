@@ -223,7 +223,7 @@ export class BundleManager implements IBundleManager {
       // genesis: undefined,
       hardforks: Mainnet.hardforks,
       name: '',
-      chainId: 1337
+      chainId: 12343
     }
     const common = new Common({ chain, eips: [2718, 2929, 2930, 7702] })
 

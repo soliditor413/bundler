@@ -145,7 +145,7 @@ async function main (): Promise<void> {
       // for hardhat/node, use account[0]
       signer = provider.getSigner()
       const network = await provider.getNetwork()
-      if (network.chainId === 1337 || network.chainId === 31337) {
+      if (network.chainId === 12343 || network.chainId === 31337) {
         deployFactory = true
       }
     } catch (e) {

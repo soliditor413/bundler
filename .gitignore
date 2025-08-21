@@ -21,3 +21,6 @@ tsconfig.tsbuildinfo
 /packages/bundler/src/types/
 yarn-error.log
 .vscode
+yarn.lock
+.idea/
+.idea/vcs.xml
